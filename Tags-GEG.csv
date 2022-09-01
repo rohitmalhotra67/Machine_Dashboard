@@ -1,0 +1,37 @@
+Tags_Description,Tag Unit
+Gas pressure at skid inlet,kg/cm2
+Excitation voltage Ue,V
+Exhaust temp. cyl. 1,°C
+Exhaust temp. cyl. 2,°C
+Exhaust temp. cyl. 3,°C
+Exhaust temp. cyl. 4,°C
+Exhaust temp. cyl. 5,°C
+Exhaust temp. cyl. 6,°C
+Exhaust temp. cyl. 7,°C
+Exhaust temp. cyl. 8,°C
+Exhaust temp. cyl. 9,°C
+Exhaust temp. cyl. 10,°C
+Exhaust temp. cyl. 11,°C
+Exhaust temp. cyl. 12,°C
+Generator bearing A temperature,°C
+Generator bearing B temperature,°C
+Jacket water temperature,°C
+Jacket water pressure,bar
+Engine oil temperature,°C
+Oil pressure,bar
+Mixture temperature,°C
+Boost pressure,bar
+"Fuel gas volume controller setting,  λ",
+Throttle valve,%
+Compressor bypass position,%
+Exhaust gas temperature average,°C
+Ambient air temperature,°C
+Engine RPM,sec-1
+LT accumulators pressure,bar
+Starter Air pressure,bar
+Filter DP ,kPa
+Lube oil level check,%
+HT accumulator pressure,bar
+Fresh LO tank level,%
+CW tank level,%
+Electrical power P,KW
