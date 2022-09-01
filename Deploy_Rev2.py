@@ -88,7 +88,7 @@ if(selection1=='Trip Analysis'):
         dataset1.drop(dataset1.columns[dataset1.columns.str.contains('unnamed',case = False)],axis = 1, inplace = True)
         st.write(dataset1)
 
-    dataset1=dataset1.dropna()
+    #dataset1=dataset1.dropna()
 
     # Displaying Visualization Chart
 
