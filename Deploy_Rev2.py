@@ -120,7 +120,8 @@ if(selection1=='Trip Analysis'):
         margin=dict(l=50,r=50,b=100,t=100,pad=4),title='GEG-2 Trip Analysis',
                     xaxis_title='Date & Time',
                     yaxis_title='Throtle Valve Position/By-Pass Valve Position/Generator Volatage')
-    fig.show()
+    #fig.show()
+    st.plotly_chart(fig)
 
 # SECTION 4 : Indentify Key Attributes of GEG correlated with its Power Produced
 
