@@ -310,7 +310,8 @@ elif(selection1=='Visualization of GEG Attributes  Vs GEG Power Output'):
             'xanchor': 'center',
             'yanchor': 'top'})
 
-    fig.show()
+    #fig.show()
+    st.plotly_chart(fig)
 
 
 
@@ -361,7 +362,8 @@ elif(selection1=='Exhaust Gas Temperature Profile of various GEG Cylinders'):
             'yanchor': 'top'})
 
 
-    fig.show()
+    #fig.show()
+    st.plotly_chart(fig)
 
 # SECTION 7: Anomaly Detetction in various attributes(Sensors) of GEG
 
@@ -446,7 +448,8 @@ elif(selection1=='Anomaly Detetction in various attributes(Sensors) of GEG'):
     margin=dict(l=50,r=50,b=100,t=100,pad=4),title='Detection of Anomaly in Sensor Data',
                    xaxis_title='Date & Time',
                    yaxis_title='Selected Attribute')
-    fig.show()
+    #fig.show()
+    st.plotly_chart(fig)
 
 
 
