@@ -336,7 +336,7 @@ elif(selection1=='Exhaust Gas Temperature Profile of various GEG Cylinders'):
         st.write(dataset)
 
     # Removing Null Values
-    dataset=dataset.dropna()
+    #dataset=dataset.dropna()
     dataset1=dataset.copy()
 
     # Plotting Box Plot
