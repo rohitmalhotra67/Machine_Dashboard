@@ -399,7 +399,17 @@ elif(selection1=='Anomaly Detetction in various attributes(Sensors) of GEG'):
                'Mixture temperature [°C]','Throttle valve position [%]','Turbo bypass position [%]','Gas prop. valve lambda []',
                'Voltage excitation [V]','Generator voltage avg [V]']]
 
-    st.write(dataset1)
+    #st.write(dataset1)
+    
+    
+    # Displaying Descriptive Statistics
+
+    st.text("**********************************************************************************************************************************************************************")
+    st.markdown("<h2 style='text-align: center; color:magenta;'>Displaying Descriptive Statistics of Sensor Data</h2>", unsafe_allow_html=True)
+
+    st.write(dataset1[['Speed actual [1/min]','Power actual [kW]','Boostpressure [bar]','Generator current avg [A]',
+               'Mixture temperature [°C]','Throttle valve position [%]','Turbo bypass position [%]','Gas prop. valve lambda []',
+               'Voltage excitation [V]','Generator voltage avg [V]']].describe().T)
     
     # Change DATE Column formatting
 
